@@ -1,0 +1,244 @@
+* {
+  font-family: Noto Sans, cursive;
+}
+
+.div-productos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 4em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+#carrito {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+#carrito li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  background-color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.total {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+#finalizarCompra {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  left: 100px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ff9900;
+  text-decoration: none;
+  color: black;
+}
+
+#carrito li img {
+  width: 100px;
+}
+
+.div-productos img {
+  width: 250px;
+}
+
+body {
+  margin: 0px;
+  background-color: aliceblue;
+  font-family: "Noto Sans", cursive;
+  overflow-x: hidden;
+}
+
+#carritoVacio {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.parallax {
+  background-image: url(../assets/background\ web.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-nav {
+  display: grid;
+  background-color: #131a22;
+  border: 1px solid #131a22;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  grid-column-gap: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-brand:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  color: white;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+}
+
+.carousel {
+  margin: 1rem;
+}
+
+.slide img {
+  height: 65vh;
+  min-height: 300px;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #ff9900;
+}
+
+.btn-outline-success {
+  color: black;
+  background-color: #ff9900;
+}
+
+.carousel-caption h5 {
+  text-shadow: black 1rem;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-caption p {
+  text-shadow: black 5px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.navbar {
+  background-color: #131a22;
+  color: white;
+  justify-content: center;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.text-center {
+  background-color: #131a22;
+  color: white;
+}
+
+.page-content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 17rem 17rem 17rem 17rem;
+  grid-column-gap: 4rem;
+  grid-row-gap: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.page-content-p {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 17rem 17rem 17rem 17rem;
+  grid-column-gap: 4rem;
+  grid-row-gap: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel {
+    margin: 1rem;
+    display: none;
+  }
+
+  .slide img {
+    width: 100px;
+    height: 20px;
+  }
+  .carousel-caption h5 {
+    text-shadow: black 5px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .carousel-caption p {
+    text-shadow: black 5px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .div-productos {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 18rem;
+    grid-column-gap: 15rem;
+    grid-row-gap: 2rem;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .page-content-p {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 18rem;
+    grid-column-gap: 15rem;
+    grid-row-gap: 2rem;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+} /*# sourceMappingURL=styles.css.map */

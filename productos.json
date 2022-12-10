@@ -1,0 +1,72 @@
+[
+    {
+      "nombre": "MSI GF63035",
+      "precio": 217350,
+      "imagen": "https://buytek.net/wp-content/uploads/2021/08/MSI-GF63035.8.jpg",
+      "marca": "msi",
+      "id": 1
+    },
+    {
+      "nombre": "Apple Airpods Max",
+      "precio": 214500,
+      "imagen": "https://buytek.net/wp-content/uploads/2021/12/AirPods-Max.10.jpg",
+      "marca": "apple",
+      "id": 2
+    },
+    {
+      "nombre": "Redmi Watch 2 Lite",
+      "precio": 54999,
+      "imagen": "https://buytek.net/wp-content/uploads/2022/09/redmi-watch-2-lite.2.webp",
+      "marca": "xiaomi",
+      "id": 3
+    },
+    {
+      "nombre": "Amazon FireTab HD 8",
+      "precio": 38400,
+      "imagen": "https://buytek.net/wp-content/uploads/2021/08/Amazon-hd-8.5.jpg",
+      "marca": "amazon",
+      "id": 4
+    },
+    {
+      "nombre": "Xiaomi Mi Pad 5",
+      "precio": 97210,
+      "imagen": "https://buytek.net/wp-content/uploads/2022/03/Mi-Pad-5.1.jpg",
+      "marca": "xiaomi",
+      "id": 5
+    },
+    {
+      "nombre": "Iphone 12 Mini",
+      "precio": 192000,
+      "imagen": "https://buytek.net/wp-content/uploads/2021/05/Mesa-de-trabajo-2.jpg",
+      "marca": "apple",
+      "id": 6
+    },
+    {
+      "nombre": "Realme GT Master 5",
+      "precio": 103750,
+      "imagen": "https://buytek.net/wp-content/uploads/2021/10/Realme-GT-Master.5.jpg",
+      "marca": "realme",
+      "id": 7
+    },
+    {
+      "nombre": "Xiaomi Mi 12",
+      "precio": 33999,
+      "imagen": "https://buytek.net/wp-content/uploads/2022/07/XIAOMI-12.1.jpg",
+      "marca": "xiaomi",
+      "id": 8
+    },
+    {
+      "nombre": "Xiaomi Poco M5",
+      "precio": 77430,
+      "imagen": "https://buytek.net/wp-content/uploads/2022/09/Poco-m5s.1.webp",
+      "marca": "xiaomi",
+      "id": 9
+    },
+    {
+      "nombre": "Oneplus 10T",
+      "precio": 153240,
+      "imagen": "https://buytek.net/wp-content/uploads/2022/08/OnePlus-10T.1.jpg",
+      "marca": "oneplus",
+      "id": 10
+    }
+  ]

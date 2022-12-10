@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="compras, tecnologia, laptops, celulares, hogar, casa, informatica, ventas, tienda">
+    <meta name="description" content="El mejor sitio de ventas relacionadas a la tecnologia y todo lo que necesitas para tu hogar. Encontra las mejores promociones y las mejores ofertas para encontrar todo lo que te hace falta en tu dia a dia.">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body class="parallax">
+  <nav class="navbar bg-dark mx-auto">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="./assets/icons8-paper-bag-64.png" alt="logo bolsa de compra blanco" width="30" height="24" class="d-inline-block align-top">
+        Acevedo Store
+      </a>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" hidden aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/carrito.html">Carrito</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mas secciones
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item disabled" href="./pages/mas vendidos.html">Proximamente...</a></li>
+            <li><a class="dropdown-item disabled" href="./pages/hogar.html">Proximamente...</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item disabled" href="./pages/contacto.html">Proximamente...</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" hidden>Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Busqueda de productos" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/rupixen-com-Q59HmzK38eQ-unsplash (2).jpg" class="d-block w-100" alt="hombre con tarjeta de credito">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Todos los medios de pago</h5>
+          <p>Todos los medios de pago disponibles, incluidas las criptomonedas</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/arlington-research-kN_kViDchA0-unsplash (2).jpg" class="d-block w-100" alt="oficina y computadoras">
+        <div class="carousel-caption d-none d-md-block fw-bold">
+          <h5 style="color: white">La mejor tecnologia</h5>
+          <p style="color: white">Vendemos los mejores productos tecnologicos del pais</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/kobu-agency-7okkFhxrxNw-unsplash (2).jpg" class="d-block w-100" alt="dos mujeres y una laptop">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>El mejor servicio web</h5>
+          <p>Vas a tener la mejor web para buscar y comprar todo lo que siempre soñaste</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="div-productos" id="divProductos">
+    
+  </div>
+    <!--<div class="page-content">
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz.staticbg.com/thumb/large/oaupload/ser1/banggood/images/72/6B/01fcd034-74b0-431f-aac9-006f0ef42a93.jpg.webp" alt="Gafas VR">
+          <div class="card-body">
+          <h5 class="card-title">Lo mas nuevo</h5>
+          <p class="card-text">Los productos mas nuevos del mercado los encontras acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz2.staticbg.com/thumb/large/oaupload/banggood/images/53/01/3aa4011b-4a0d-41f5-9d69-1206b2361fc4.jpg.webp" alt="Camara vigilancia">
+          <div class="card-body">
+          <h5 class="card-title">Seguridad</h5>
+          <p class="card-text">Los productos perfectos para tu seguridad y la de tu casa los encontras acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/EF/79/b299ad02-eb62-48ba-ad86-a92ba0a7b362.jpg.webp" alt="Pantalla automovil">
+          <div class="card-body">
+          <h5 class="card-title">Automotriz</h5>
+          <p class="card-text">Todos los accesorios mas necesarios para tu vehiculo los encontras acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/1A/DE/06dd826f-a7c9-49ee-8ae0-7ed97af785d7.jpeg.webp" alt="Contenedor perfume">
+          <div class="card-body">
+          <h5 class="card-title">Perfumeria</h5>
+          <p class="card-text">Perfumes en el Top 10 mundial los tenes solo acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/75/5F/53e368cb-0f78-4e0d-844c-192447ab4e3f.jpeg.webp" alt="Adaptador electrico">
+          <div class="card-body">
+          <h5 class="card-title">Electrodomesticos</h5>
+          <p class="card-text">Los mejores electrodomesticos para tu hogar los encontras acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/06/A3/a2762ae9-990a-4238-b5ff-4ae437d0d6c2.jpg.webp" alt="Mouse gamer">
+          <div class="card-body">
+          <h5 class="card-title">Gaming</h5>
+          <p class="card-text">Los mejores accesorios gaming para tu setup los encontras acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz2.staticbg.com/thumb/large/oaupload/banggood/images/84/81/dbac5b34-f4f9-4d3a-80d4-db4ef2b5e413.jpg.webp" alt="Laptop mac">
+          <div class="card-body">
+          <h5 class="card-title">Electronica</h5>
+          <p class="card-text">Los mejores productos del mundo de la electronica los encontras acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/EC/FB/f711b2e8-a410-4e95-8277-83e5b5936876.jpg.webp" alt="Lentes de sol negros">
+          <div class="card-body">
+          <h5 class="card-title">Moda</h5>
+          <p class="card-text">Todo lo nuevo de la moda, rapido y al instante.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/33/55/3c28d459-d339-4959-91b4-e1b521814f58.jpg.webp" alt="Tarjeta de memoria">
+          <div class="card-body">
+          <h5 class="card-title">Almacenamiento</h5>
+          <p class="card-text">¿Te quedaste sin espacio? No te preocupes, nosotros te cubrimos.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz2.staticbg.com/thumb/large/oaupload/banggood/images/6D/F6/896d9c8c-56cc-4de8-9acb-fa7f0a41bf68.jpg.webp" alt="Auriculares BT">
+          <div class="card-body">
+          <h5 class="card-title">Accesorios</h5>
+          <p class="card-text">Los mejores accesorios para vos y para tu hogar.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/0C/2F/d7266ddf-38bd-4907-834b-b4eab5b9bd93.jpg.webp" alt="Parlante BT">
+          <div class="card-body">
+          <h5 class="card-title">Audio</h5>
+          <p class="card-text">¿Queres escuchar la mejor musica y con la mejor calidad? Entra acá.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>
+
+        <div class="card" style="width: 19rem;">
+          <img class="card-img-top" src="https://imgaz2.staticbg.com/thumb/large/oaupload/banggood/images/FC/7E/f9d65de2-698a-455a-8f69-d912a62ceb2e.jpg.webp" alt="Consola de mano">
+          <div class="card-body">
+          <h5 class="card-title">Consolas</h5>
+          <p class="card-text">La diversion no tiene limites, y nosotros tampoco.</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+        </div>-->
+    </div>
+    <footer class="text-center text-lg-start text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Seguinos en todas nuestras redes sociales:</span>
+        </div>
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Acevedo Store
+              </h6>
+              <p>
+                En esta tienda vas a encontrar todos los mejores productos del pais.
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Productos
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Electronica</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Hogar</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Deco</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Soluciones digitales</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Links utiles
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Precios</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ajustes</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ordenes</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ayuda</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+              <p><i class="fas fa-home me-3"></i> San Luis, SL 5710, ARG</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@acevedostore.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> +54 2664 11 11 11</p>
+              <p><i class="fas fa-print me-3"></i> +54 2664 11 11 11</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="#">Acevedo Store</a>
+      </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>

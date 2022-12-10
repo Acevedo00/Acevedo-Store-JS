@@ -1,0 +1,29 @@
+* {
+    font-family: map-get($body, fontFamily);  
+  }
+
+  body {
+    margin: 0px;
+    background-color: map-get($body, backgroundColor);
+    font-family: map-get($body, fontFamily);
+    overflow-x: map-get($body, overflowX);
+}
+
+.parallax {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-gris-sucio_53876-108405.jpg?w=1380&t=st=1660846948~exp=1660847548~hmac=0be5d47d523d7a2cc8fe7ce7b8dc6a9ad03833e5ef88e3c8c42caf927b2a09e4);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-nav {
+    display: grid;
+    background-color: #131A22;
+    border: 1px solid #131A22;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    grid-column-gap: 20px;
+  }

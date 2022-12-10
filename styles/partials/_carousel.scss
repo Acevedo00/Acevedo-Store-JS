@@ -1,0 +1,26 @@
+.carousel {
+    margin: 1rem;
+  }
+
+  .slide img {
+    height: 65vh;
+    min-height: 300px;
+  }
+
+  .btn-primary {
+    @include verMas ($backColor: #FF9900, $padding: 2px);
+  }
+
+  .btn-outline-success {
+    @include verMas ($backColor: #FF9900, $padding: 2px);
+  }
+
+  .carousel-caption h5 {
+    @extend %carouselDefault;
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    @extend %carouselDefault;
+    font-size: 18px;
+  }

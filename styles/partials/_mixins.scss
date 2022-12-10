@@ -1,0 +1,5 @@
+@mixin verMas ($backColor, $padding) {
+    color: black;
+    background-color: $backColor;
+    padding: $padding;  
+}

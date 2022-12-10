@@ -1,0 +1,25 @@
+.navbar {
+  @extend %backgroundColorDefault;
+    @extend %colorDefault;
+    justify-content: center;
+  }
+
+  .navbar-brand {
+    @extend %colorDefault;
+    justify-content: center;
+  }
+
+  .nav-link  {
+    @extend %colorDefault;
+  }
+
+  .text-center {
+    @extend %backgroundColorDefault;
+    @extend %colorDefault;
+  }
+
+  .container-fluid {
+    justify-content: center;
+  }
+
+  

@@ -1,0 +1,58 @@
+@import "./partials/body";
+@import "./partials/carousel";
+@import "./partials/navbar";
+@import "./partials/page-content";
+@import "./partials/maps";
+@import "./partials/extends";
+@import "./partials/mixins";
+
+
+
+@media screen and (max-width: 480px) {
+
+    .carousel {
+        margin: 1rem;
+      }
+    
+      .slide img {
+        height: 25vh;
+      }
+    
+      .carousel-caption h5 {
+        text-shadow: black 5px ;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+      }
+    
+      .carousel-caption p {
+        text-shadow: black 5px ;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+      }
+    
+      .page-content {
+        display: grid ;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 18rem ;
+        grid-column-gap: 15rem;
+        grid-row-gap: 2rem ;
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .page-content-p {
+      display: grid ;
+      grid-template-rows: 1fr ;
+      grid-template-columns: 18rem ;
+      grid-column-gap: 15rem;
+      grid-row-gap: 2rem ;
+      margin: 2rem;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+    
+  
+  }
