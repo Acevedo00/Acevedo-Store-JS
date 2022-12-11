@@ -15,10 +15,10 @@
 
 #carrito {
   display: flex;
-  min-height: 50vh;
+  min-height: 40vh;
   flex-direction: column;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 20em;
+  padding-right: 20em;
 }
 
 #carrito li {
@@ -47,8 +47,8 @@
   left: 100px;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 50em;
+  margin-right: 50em;
   border: 1px solid;
   padding: 5px;
   border-radius: 10px;
@@ -209,6 +209,33 @@ body {
     width: 100px;
     height: 20px;
   }
+
+  #carrito {
+    display: flex;
+    min-height: 40vh;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #finalizarCompra {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    left: 100px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ff9900;
+    text-decoration: none;
+    color: black;
+  }
+
   .carousel-caption h5 {
     text-shadow: black 5px;
     font-size: 30px;
